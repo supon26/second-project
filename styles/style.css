@@ -310,6 +310,12 @@ footer {
 
 /* Mobile */
 @media screen and (max-width:576px) {
+    body{
+        margin-left: 10px;
+    }
+    .container{
+        margin: 50px 0;
+    }
     header {
         width: 100%;
     }
@@ -359,7 +365,8 @@ footer {
 
     .banner_2>button {
         position: relative;
-        left: -50px;
+        left: 50px;
+        top: 0;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -384,7 +391,7 @@ footer {
         gap: 50px;
     }
 
-    footer {
+    footer{
         width: 100%;
     }
 }
