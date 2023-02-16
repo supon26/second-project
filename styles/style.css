@@ -212,11 +212,11 @@ header .banner .description>p {
 }
 
 .fact {
-    transition: transform 1s;
+    transition: transform 1.2s linear;
 }
 
 .fact:hover{
-    transform: rotate(30deg) scale(1);
+    transform: rotate(30deg) scale(0.9);
     border-radius: 50%;
     border-color: gray;
     background-color: whitesmoke;
