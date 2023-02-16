@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* basic */
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* header section navbar */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar nav .title{
+    margin-top: 30px;
+}
+.navbar nav .menu{
+    margin-top: 30px;
+}
+.navbar nav .menu ul{
+    display: flex;
+    gap: 50px;
+}
+.navbar nav .menu ul li{
+    list-style: none;
+}
+.navbar nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* header banner section */
+header .banner > img{
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+header .banner{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .banner .description{
+    width: 800px;
+    height: 300px;
+    text-align: center;
+}
+header .banner .description > button{
+    background-color: #FF900E;
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+header .banner .description > h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+}
+header .banner .description > p{
+    color:  #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* quick list section */
+.quick-list{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.quick-list .images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.quick-list .details > h1{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.quick-list .details .grey{
+    color: #727272;
+}
+.quick-list .details .yellow{
+    color: #FF900E;
+}
+.quick-list .details > p{
+    font-weight: 100;
+    font-size: 15px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.quick-list .details > button{
+    background-color: #FF900E;
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+/* 2nd banner section */
+.banner_2{
+    margin-top: 100px;
+    width: 1100px;
+    height: 750px;
+}
+.second-banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.second-banner > img{
+    width: 500px;
+    height: 700px;
+}
+.second-banner .details > h1{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.second-banner .details > p{
+    margin-bottom: 20px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.second-banner .details .part > p{
+    margin-top: 10px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.second-banner .details .part{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.banner_2 > button{
+    background-color: #FF900E;
+    border: 0;
+    padding: 30px 20px;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    top: -80px;
+    left: 550px;
+}
+/* facts section */
+.facts{
+    margin-top: 100px;
+}
+.facts > h1{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts > p{
+    color:#727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.fact{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #FF900E;
+    padding: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.facts-option{
+    transition: transform 0.5s;
+}
+.facts-option :hover{
+    transform:rotate(-30deg) scale(0.8);
+}
+.fact > p{
+    font-weight: 600;
+    font-size: 10px;
+    color:#727272;
+}
+.fact h3, img{
+    margin-bottom: 10px;
+}
+.facts .facts-option{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+/* extra section */
+.extra{
+    margin-top: 100px;
+    text-align: center;
+}
+.extra > h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.extra .skills .skill{
+    width: 150px;
+    height: 50px;
+    border: 5px solid lightcoral;
+    padding:30px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.extra .skills .skill:hover{
+    transform: scale(1.2);
+}
+.extra .skills{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+/* sponsors section */
+.sponser{
+    margin-top: 100px;
+    text-align: center;
+}
+.sponser > p{
+    margin-top: 10px;
+    color: #727272;
+}
+.sponser > h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponser .icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #727272;
+}
+/* responsive  */
+
+/* Mobile */
+@media screen and (max-width:576px){
+    header{
+        width: 100%;
+    }
+    .navbar nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .navbar nav .menu ul{
+        gap: 20px;
+    }
+    header .banner{
+        justify-content: center;
+    }
+    header .banner .description{
+        width: 100%;
+    }
+    header .banner > img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .quick-list{
+        flex-direction: column;
+    }
+    .quick-list .images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner_2{
+        width: 100%;
+        height: fit-content;
+    }
+    .second-banner{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .banner_2 > button{
+        position: relative;
+        left: -50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .facts .facts-option{
+        flex-direction: column;
+        align-items: center;
+    }
+    .extra{
+        width: 100%;
+    }
+    .extra .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponser .icon{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    footer{
+        width: 100%;
+    }
+}
